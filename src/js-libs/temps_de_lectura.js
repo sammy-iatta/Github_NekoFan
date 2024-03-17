@@ -77,10 +77,10 @@ class TempsLectura {
                 _text_paraules=(_paraules===1)?'paraula':'paraules';
                 break;
             case 'es', 'es-es': _text_temps=(_minuts===1)?'minuto':'minutos';
-            _text_paraules=(_paraules===1)?'palabra':'palabras';
+                _text_paraules=(_paraules===1)?'palabra':'palabras';
                 break;
             case 'en', 'en-gb', 'en-us': _text_temps=(_minuts===1)?'minute':'minutes';
-            _text_paraules=(_paraules===1)?'word':'words';
+                _text_paraules=(_paraules===1)?'word':'words';
                 break;
             }
         return {'temps': _minuts, 'text_temps': _text_temps, 'paraules': _paraules, 'text_paraules': _text_paraules};
