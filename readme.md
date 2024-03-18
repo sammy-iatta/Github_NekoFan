@@ -5,8 +5,9 @@ Nova versió del codi font del blog, que ja li toca una neteja de cara. Tot en v
 Per aquí aniré penjant idees, el que vaig fent, apunts, ...
 
 ### Estructura inicial de directoris
-_src_: fonts html i xml
-
+_src_: fonts html, xml, ...
+_imatges_: Imatges SVG
+_icones_: Icones (en format SVG)
 _js-libs_: llibreries JS personals
 
 ### Carrega dels arxius JS i/o CSS
