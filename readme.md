@@ -16,6 +16,8 @@ La url base per carregar els scripts es `https://cdn.jsdelivr.net/gh/sammy-iatta
 
 En els dos casos, si es vol carregar una versió minimitzada, es pot afegir el suffix `.min` abans de la extensió (per exemple *temps_de_lectura`.min`.js*
 
+Hi ha més informació a https://www.jsdelivr.com/?docs=gh
+
 ### Eines emprades.
 - Per fer les proves de les funcions i classes s'ha d'instalar un servidor web local. Com no faré servir .NET ni coses similars, [XAMPP](https://www.apachefriends.org/) es una bona opció i molt fàcil de instal·lar i configurar.
 - No oblidem el [Visual Studio Code](https://code.visualstudio.com/), que ens ajudarà a picar el codi :cat:
