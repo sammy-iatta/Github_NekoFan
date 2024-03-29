@@ -22,5 +22,5 @@ Hi ha més informació a https://www.jsdelivr.com/?docs=gh
 ## Eines emprades
 - Per fer les proves de les funcions i classes s'ha d'instalar un servidor web local. Com no faré servir .NET ni coses similars, [XAMPP](https://www.apachefriends.org/) es una bona opció i molt fàcil de instal·lar i configurar.
 - No oblidem el [Visual Studio Code](https://code.visualstudio.com/), que ens ajudarà a picar el codi :cat:
+- Minimitzar i compilar el codi javascript amb [Google](https://closure-compiler.appspot.com/home)
 - Blogger (de Google). Sé que es una mica :shit:, però són ja molts anys i molta cosa escrita dintre de la plataforma.
-
