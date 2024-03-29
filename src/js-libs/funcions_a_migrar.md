@@ -1,4 +1,4 @@
-## Lista de funcions a migrar al nou blog
+## Llista de funcions a migrar al nou blog
 
 - temps de lectura, per als post
 - El millor/el pitjor, per a les reviews
