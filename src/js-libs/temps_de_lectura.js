@@ -81,7 +81,7 @@ class TempsLectura {
     calcular_temps() {
         let _text='',
             _text_temps='', _text_paraules='',
-            _paraules, _minuts, _segons;
+            _paraules=0, _minuts=0, _segons=0;
         let _tmp;
 
         if (this._params.id) {
@@ -96,12 +96,13 @@ class TempsLectura {
             else _text=this._params.node.innerHTML;
         } else _text=this._params.text || '';
 
-        _paraules=_text.split(' ').length;
-        _tmp=_paraules/this._params.paraules_x_minut;
-        _minuts=Math.floor(_tmp);
-        _segons=(_tmp-_minuts)*60.0;
-
-        if (_segons>=30) _minuts++;
+        if (_text && _text.length) {
+            _paraules=_text.split(' ').length;
+            _tmp=_paraules/this._params.paraules_x_minut;
+            _minuts=Math.floor(_tmp);
+            _segons=(_tmp-_minuts)*60.0;
+            if (_segons>=30) _minuts++;
+        }
 
         _text_temps=(_minuts===1)?this._locales[this._params.locale]['m'][0]:this._locales[this._params.locale]['m'][1];
         _text_paraules=(_paraules===1)?this._locales[this._params.locale]['p'][0]:this._locales[this._params.locale]['p'][1];
@@ -116,6 +117,6 @@ class TempsLectura {
     }
     // Funcions privades
     _composa_imatge() {
-        return ((this._params.imatge)?('\x3cimg src="'+this._params.imatge+' class="'+this._params.clase+'"/%x3e'):'');
+        return ((this._params.imatge)?('\x3cimg src="'+this._params.imatge+'" class="'+this._params.clase+'"/\x3e'):'');
     }
 }
