@@ -14,6 +14,8 @@
       xmlns:expr='http://www.google.com/2005/gml/expr'>
     <head>
         <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" name="viewport"/>
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+
         <meta content="SITE-VERIFICATION-GOOGLE" name="google-site-verification"/>
 
         <title><data:view.title.escaped/></title>
@@ -35,9 +37,18 @@
 
         <meta expr:content="data:view.description.escaped" name="description"/>
 
-        <!-- Metadata robots -->
+        <!-- Metadata robots, spiders & Crawlers-->
         <meta content="index, follow" name="robots"/>
         <meta content="index, follow" name="googlebot"/>
+        <meta content="follow, all" name="Googlebot-Image"/>
+        <meta content='follow, all' name='msnbot'/>
+        <meta content="follow, all" name="Slurp"/>
+        <meta content="follow, all" name="ZyBorg"/>
+        <meta content="follow, all" name="Scooter"/>
+        <meta content="all" name="spiders"/>
+        <meta content="all" name="WEBCRAWLERS"/>
+        <meta content="aeiwi, alexa, alltheWeb, altavista, aol netfind, anzwers, canada, directhit, euroseek, excite, overture, go, google, hotbot. infomak, kanoodle, lycos, mastersite, national directory, northern light, searchit, simplesearch, Websmostlinked, webtop, what-u-seek, aol, yahoo, webcrawler, infoseek, excite, magellan, looksmart, bing, cnet, googlebot" 
+              name="search engines"/>
   
         <!-- Metadata OpenGraph (https://ogp.me/)-->
 
@@ -74,7 +85,24 @@
         <b:class cond="data:view.isError" name="item error404"/>
 
         <b:section class='BORRAME-ify-panel' id='BORRAME-ify-panel' maxwidgets='3' name='Theme Options' showaddelement='no'>
-
+            <div><b:eval expr="data:blog.pageType" /></div>
+            <b:switch var='data:blog.pageType'>
+                <!-- index page -->
+                <b:case value="index" />
+                <h1>Index Page</h1>
+                <!-- static page -->
+                <b:case value="static_page" />
+                  <h1>Static Page</h1>
+                <!-- item page -->
+                <b:case value="item" />
+                  <h1>Post Page</h1>
+                <!-- error page -->
+                <b:case value="error_page" />
+                  <h1>Error Page</h1>
+                <b:default />
+                  <h2>NO SE Blog Posts</h2>
+                  <div><b:eval expr="data:blog.pageType" /></div>
+                </b:switch>
         </b:section>
 
     </body>
