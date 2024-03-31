@@ -6,9 +6,9 @@ Per aquí aniré penjant idees, el que vaig fent, apunts, ...
 ## Estructura inicial de directoris
 La estructura de directoris del repo es:
 - **_src_**: fonts html, xml, ...
-- **_imatges_**: Imatges SVG
-- **_icones_**: Icones (en format SVG)
-- **_js-libs_**: llibreries JS personals
+    - **_imatges_**: Imatges SVG
+    - **_icones_**: Icones (en format SVG)
+    - **_js-libs_**: llibreries JS personals
 
 ## Carrega dels arxius SVG, JS i/o CSS
 Poden carregar-se els arxius amb el codi javascript  a través de [jsDelivr](https://www.jsdelivr.com/).
