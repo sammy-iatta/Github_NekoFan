@@ -25,7 +25,7 @@ Hi ha més informació a https://www.jsdelivr.com/?docs=gh
 - Minimitzar i compilar el codi javascript amb [Google](https://closure-compiler.appspot.com/home)
 - Blogger (de Google). Sé que es una mica :shit:, però són ja molts anys i molta cosa escrita dintre de la plataforma.
 
-## Pàgines d'ajuda
+## Pàgines d'ajuda amb la sintaxis dels templates de Blogger
 - https://support.google.com/blogger/answer/47270?hl=en
 - https://support.google.com/blogger/#topic=6321969
 - https://support.google.com/blogger/answer/46871
