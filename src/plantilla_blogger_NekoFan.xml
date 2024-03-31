@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css="false" 
+      b:defaultwidgetversion="2"
+      b:layoutsVersion="3" 
+      b:responsive="true" 
+      b:templateVersion="1.0.0" 
+      expr:class="data:blog.languageDirection" 
+      expr:dir="data:blog.languageDirection"
+      expr:lang="data:blog.locale.language"
+      xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:b="http://www.google.com/2005/gml/b" 
+      xmlns:data="http://www.google.com/2005/gml/data"
+      xmlns:expr='http://www.google.com/2005/gml/expr'>
+    <head>
+        <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" name="viewport"/>
+        <meta content="SITE-VERIFICATION-GOOGLE" name="google-site-verification"/>
+
+        <title><data:view.title.escaped/></title>
+
+        <meta expr:content="&quot;text/html; charset=&quot; + data:blog.encoding" http-equiv="Content-Type"/>
+        <meta content="blogger" name="generator"/>
+        <meta content="yes" name="apple-mobile-web-app-capable"/>
+        <meta content="yes" name="apple-touch-fullscreen"/>
+        <meta content="nekofan,anime,manga,videojocs,noticies,japo,pelicules,series,software,programari" name="keywords"/>
+        <link expr:href="data:blog.blogspotFaviconUrl" rel="icon" type="image/x-icon"/>
+        <link expr:href="data:blog.blogspotFaviconUrl" rel="shortcut icon" type="image/x-icon"/>
+        <meta expr:content="data:skin.vars.keycolor" name="theme-color"/>
+        <meta expr:content="data:skin.vars.keycolor" name="msapplication-navbutton-color"/>
+        <meta expr:content="data:skin.vars.keycolor" name="apple-mobile-web-app-status-bar-style"/>
+        <b:if cond="data:blog.adultContent">
+            <meta content="adult" name="rating"/>
+        </b:if>
+        <link expr:href="data:view.url.canonical" rel="canonical"/>
+
+        <meta expr:content="data:view.description.escaped" name="description"/>
+
+        <!-- Metadata robots -->
+        <meta content='index, follow' name='robots'/>
+        <meta content='index, follow' name='googlebot'/>
+  
+        <!-- Metadata OpenGraph (https://ogp.me/)-->
+
+        <data:blog.feedLinks/>
+        <!-- <data:blog.meTag/> -->
+  
+        <b:skin id="blog_skin" name="blog_skin">
+         <![CDATA[
+            /* Blogger CSS styles and variables*/
+
+            /* Var definition */
+            /*
+                <Group description="Theme Colors" selector="body">
+                    <Variable name="main.color" description="Theme Color" type="color" default="#ff3d00" value="#ff3d00"/>
+                    <Variable name="main.dark.color" description="Theme Dark Color" type="color" default="#171c24" value="#171c24"/>
+                    <Variable name="title.color" description="Title Color" type="color" default="#171c24" value="#171c24"/>
+                    <Variable name="title.hover.color" description="Title Hover Color" type="color" default="$(main.color)" value="#ff3d00"/>
+                    <Variable name="meta.color" description="Meta Color" type="color" default="#aaaaaa" value="#aaaaaa"/>
+                    <Variable name="tag.bg" description="Tag Background" type="color" default="$(main.color)" value="#b92c28"/>
+                    <Variable name="tag.color" description="Tag Color" type="color" default="#ffffff" value="#ffffff"/>
+                </Group>
+                
+                <Variable name="keycolor" description="Main Color" type="color" default="$(main.color)" value="#b92c28"/>
+            */
+         ]]>
+        </b:skin>
+    </head>
+    <body expr:class="data:blog.pageType">
+        <b:class cond="data:view.isHomepage" name="home"/>
+        <b:class cond="data:view.isPost" name="post"/>
+        <b:class cond="data:view.isPage" name="item page"/>
+        <b:class cond="data:view.isArchive" name="index"/>
+        <b:class cond="data:view.search.label" name="category"/>
+        <b:class cond="data:view.isError" name="item error404"/>
+
+        <b:section class='BORRAME-ify-panel' id='BORRAME-ify-panel' maxwidgets='3' name='Theme Options' showaddelement='no'>
+
+        </b:section>
+
+    </body>
+</html>

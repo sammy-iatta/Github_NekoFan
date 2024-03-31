@@ -24,3 +24,15 @@ Hi ha més informació a https://www.jsdelivr.com/?docs=gh
 - No oblidem el [Visual Studio Code](https://code.visualstudio.com/), que ens ajudarà a picar el codi :cat:
 - Minimitzar i compilar el codi javascript amb [Google](https://closure-compiler.appspot.com/home)
 - Blogger (de Google). Sé que es una mica :shit:, però són ja molts anys i molta cosa escrita dintre de la plataforma.
+
+## Pàgines d'ajuda
+- https://support.google.com/blogger/answer/47270?hl=en
+- https://support.google.com/blogger/#topic=6321969
+- https://support.google.com/blogger/answer/46871
+- https://support.google.com/blogger/answer/46888
+- https://support.google.com/blogger/answer/46995
+- https://bloggercode-blogconnexion.blogspot.com/
+- https://www.broculos.net/2013/07/how-to-create-your-own-blogger-template.html
+- https://basic-blogger-template.readthedocs.io/en/latest/
+- https://sneeit.com/understanding-about-blogger-macro-xml-template-code/
+- https://medium.com/search?q=Blogger+Template+Design+
