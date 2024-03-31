@@ -75,6 +75,50 @@
             */
          ]]>
         </b:skin>
+        <!-- Blogger Cookie options (RGPD EU)-->
+        <script type="text/javascript">
+        //<![CDATA[
+          function update_rgpdCookies_text() {
+                try {
+                    let _cookieTitle = window.cookieOptions.array_msgs[0],
+                        _cookieBody = window.cookieOptions.msg,
+                        _text_node_cookie=document.getElementsByClassName('cookie-choices-text');
+
+                    for(let _i = 0; _i < _text_node_cookie.length; _i++) {
+                      _text_node_cookie[_i].innerHTML=_cookieTitle + _cookieBody;
+                    }
+                    //$('.cookie-choices-text').html(_cookieTitle + _cookieBody);
+                    //$('.cookie-choices-button').attr('target', '_self');
+                } catch (e) {}
+          }
+         
+          let cookieOptions = {}, cookie
+              _msg='';
+          cookieOptions.array_msgs=['\x3cstrong class\x3d"cookies-title" \x3eHem de molestar-te una altra vegada amb el tema de les cookies...\x3c/strong\x3e',
+             '\x3cdiv\x3e',
+             '\x3cstrong\x3e\x3cspan class\x3d"blog-title"\x3eNekoFan\x3c/span\x3e fa servir galetes pròpies i de tercers.\x3c/strong\x3e',
+             '\x3c/div\x3e',
+             '\x3cdiv\x3e',
+             'Les galetes d\'aquest lloc web es fan servir per personalitzar els anuncis, oferir funcions de xarxes socials i analitzar el trànsit. En navegar pel bloc acceptes l\'ús de galetes per anàlisi, contingut personalitzat i publicitat.',
+             '\x3c/div/\x3e',
+             '\x3cdiv\x3e',
+             'Si vols, pots canviar la configuració de cookies en qualsevol moment.',
+             '\x3cdiv\x3e'
+          ];
+            for(let _i=1;_i<cookieOptions.array_msgs.length;_i++) _msg+=cookieOptions.array_msgs[_i];
+            cookieOptions.msg=_msg;
+            cookieOptions.close='Acceptar';
+            cookieOptions.learn='Saber-ne més';
+            cookieOptions.link='/p/que-son-las-cookies.html';
+
+            window.cookieOptions=cookieOptions;
+
+            document.addEventListener('DOMContentLoaded', function(event) {
+              setTimeout(update_rgpdCookies_text, 100);
+            });
+        //]]>
+        </script>
+        <script defer="" src="/js/cookienotice.js"></script>
     </head>
     <body expr:class="data:blog.pageType">
         <b:class cond="data:view.isHomepage" name="home"/>
