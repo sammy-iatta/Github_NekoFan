@@ -36,8 +36,8 @@
         <meta expr:content="data:view.description.escaped" name="description"/>
 
         <!-- Metadata robots -->
-        <meta content='index, follow' name='robots'/>
-        <meta content='index, follow' name='googlebot'/>
+        <meta content="index, follow" name="robots"/>
+        <meta content="index, follow" name="googlebot"/>
   
         <!-- Metadata OpenGraph (https://ogp.me/)-->
 
