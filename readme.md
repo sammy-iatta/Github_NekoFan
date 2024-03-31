@@ -36,3 +36,4 @@ Hi ha més informació a https://www.jsdelivr.com/?docs=gh
 - https://basic-blogger-template.readthedocs.io/en/latest/
 - https://sneeit.com/understanding-about-blogger-macro-xml-template-code/
 - https://medium.com/search?q=Blogger+Template+Design+
+
