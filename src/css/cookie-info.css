@@ -22,6 +22,17 @@
     -webkit-animation: cookies 1s backwards;
     animation: cookies 1s backwards;
 }
+span.cookie-choices-text > strong {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    position: relative;
+    top: -5px; 
+}
+span.cookie-choices-text > div > strong > span.blog-title {
+    color: #b92c28;
+    font-size: 1.5em;
+    font-weight: 900;
+}
 
 .cookie-choices-info .cookie-choices-text {
     background-color: #dff0d8 !important; 

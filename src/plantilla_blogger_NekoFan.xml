@@ -76,6 +76,7 @@
          ]]>
         </b:skin>
         <!-- Blogger Cookie options (RGPD EU)-->
+        <link href="https://cdn.jsdelivr.net/gh/sammy-iatta/blog_NekoFan/src/css/cookie-info.css" rel="stylesheet"/>
         <script type="text/javascript">
         //<![CDATA[
           function update_rgpdCookies_text() {
