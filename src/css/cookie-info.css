@@ -10,8 +10,8 @@
     top: auto !important;
     bottom: 10px !important;
     width: 90% !important;
-    background-color: #dff0d8 !important;
-    color: #3c763d !important;
+    background-color: var(--cookies-background-color) !important;
+    color: var(--cookies-text-color) !important;
     left: 5% !important;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -29,14 +29,14 @@ span.cookie-choices-text > strong {
     top: -5px; 
 }
 span.cookie-choices-text > div > strong > span.blog-title {
-    color: #b92c28;
+    color: var(--cookies-blog-title-color);
     font-size: 1.5em;
     font-weight: 900;
 }
 
 .cookie-choices-info .cookie-choices-text {
-    background-color: #dff0d8 !important; 
-    color: #3c763d !important;
+    background-color: var(--cookies-background-color) !important; 
+    color: var(--cookies-text-color) !important;
 }
 .cookie-choices-info .cookie-choices-text:before {
     content: "\F430"; 
@@ -52,8 +52,8 @@ span.cookie-choices-text > div > strong > span.blog-title {
 }
 .cookie-choices-info .cookie-choices-button {
     text-transform: none !important; 
-    background-color:#337ab7 !important; 
-    color: #fff !important; 
+    background-color:var(--cookies-button-more-background-color) !important; 
+    color: var(--cookies-button-more-text-color) !important; 
     display: block !important; 
     padding: 6px 12px !important;
     margin-bottom: 5px !important;
@@ -75,7 +75,10 @@ span.cookie-choices-text > div > strong > span.blog-title {
     border-radius: 4px !important;
 }
 
-#cookieChoiceDismiss {background-color:#b92c28 !important; color: #ffffff !important;}
+#cookieChoiceDismiss {
+    background-color:var(--cookies-button-dimiss-background-color) !important; 
+    color: var(--cookies-button-dimiss-text-color) !important;
+}
 
 /* Animacio RGPD */
 @-webkit-keyframes cookies {

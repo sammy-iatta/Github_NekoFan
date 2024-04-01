@@ -1,0 +1,13 @@
+/* Global styles NekoFan */
+
+/* root vars */
+:root {
+    --cookies-blog-title-color: #b92c28;
+    --cookies-background-color: #dff0d8;
+    --cookies-text-color: #3c763d;
+    --cookies-button-dimiss-background-color: #b92c28;
+    --cookies-button-dimiss-text-color: #ffffff;
+    --cookies-button-more-background-color: #337ab7;
+    --cookies-button-more-text-color:  #ffffff;
+   }
+
