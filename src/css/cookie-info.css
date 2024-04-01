@@ -9,10 +9,10 @@
     font-family: roboto, Arial;
     top: auto !important;
     bottom: 10px !important;
-    width: 90% !important;
+    width: 70% !important;
     background-color: var(--cookies-background-color) !important;
     color: var(--cookies-text-color) !important;
-    left: 5% !important;
+    left: 15% !important;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -91,5 +91,6 @@ span.cookie-choices-text > div > strong > span.blog-title {
 }
 
 @media screen and (max-width: 1107px) {
+    .cookie-choices-info {width: 98% !important; left: 1% !important;}
     .cookie-choices-info .cookie-choices-button {display: inline-block !important;}
    }

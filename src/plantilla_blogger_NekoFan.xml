@@ -135,7 +135,7 @@
         <b:class cond="data:view.search.label" name="category"/>
         <b:class cond="data:view.isError" name="item error404"/>
 
-        <b:section class='BORRAME-ify-panel' id='BORRAME-ify-panel' maxwidgets='3' name='Theme Options' showaddelement='no'>
+        <b:section class='blog-cover' id='blog-cover' name='Top container' showaddelement='no'>
             <div><b:eval expr="data:blog.pageType" /></div>
             <b:switch var='data:blog.pageType'>
                 <!-- index page -->
@@ -154,6 +154,10 @@
                   <h2>NO SE Blog Posts</h2>
                   <div><b:eval expr="data:blog.pageType" /></div>
                 </b:switch>
+            <footer class="blog-footer">
+               <div class="footer-top">peu top</div>
+               <div class="footer-bottom">peu bottom</div>
+            </footer>
         </b:section>
 
     </body>
