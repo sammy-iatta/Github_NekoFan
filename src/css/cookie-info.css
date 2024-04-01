@@ -39,10 +39,10 @@ span.cookie-choices-text > div > strong > span.blog-title {
     color: #3c763d !important;
 }
 .cookie-choices-info .cookie-choices-text:before {
-    content: "\f05a"; 
-    font-family: "Font Awesome 5 Free"; 
+    content: "\F430"; 
+    font-family: "bootstrap-icons"; 
     font-size: 2em; 
-    font-weight: 900; 
+    /*font-weight: 900; */
     display: inline-block; 
     margin: 0 5px 0 0;
 }
