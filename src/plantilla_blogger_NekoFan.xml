@@ -158,17 +158,49 @@
                 </b:switch>
         </b:section>
 
-        <footer class="blog-footer">
-            <div class="container footer-top">
-              <div class="row">
-                <div class="col-12 col-md-6 col-xl-4">
-                   <div class="d-flex align-items-center justify-content-center">Flex item with a lot of content</div>
-                </div>
-                <div class="d-flex align-items-center justify-content-center">Flex item</div>
-                <div class="d-flex align-items-center justify-content-center">Flex item</div>
+        <footer class="nf-footer">
+            <div class="nf-footer-top">
+              <div class="nf-flex-container">
+                  <div class="nf-flex-item nf-col-3 nf-flex-padding-card nf-flex-margin-card">
+                    <h3><span class="nf-text-uppercase">Quant a </span><span class="nf-blog-title">NekoFan</span></h3>
+                    <div class="nf-text-justify">
+                        Una mica de manga i anime, un altre part de Japó i de videojocs, tot barrejat amb un pel de programació i tecnologia, fan la recepta (im)perfecte d'aquest blog.
+                    </div>
+                  </div>
+                  <div class="nf-flex-item nf-col-3 nf-flex-padding-card nf-flex-margin-card">
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" rel="license noopener noreferrer" target="_blank">
+                        <img alt="Licencia de Creative Commons" width="88" height="31" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"/>
+                    </a>
+                    <div>
+                      Aquesta obra està sota una llicencia de <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" rel="license noopener noreferrer" target="_blank">llicencia de Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0 Internacional</a>.
+                    </div>
+                    <div>
+                      <a class="btn btn-danger hidden-print" href="/p/que-son-las-cookies.html">Política de Cookies</a>
+                    </div>
+                  </div>
+                  <div class="nf-flex-item nf-col-3 nf-flex-padding-card nf-flex-margin-card">
+                    <h3><span class="nf-text-uppercase">Segueix-nos</span></h3>
+                    <ul class="nf-social-footer">
+                          <li class="twitter"><a aria-label="twitter" class="twitter" href="https://twitter.com/iatta" rel="nofollow noopener noreferrer" target="_blank">1</a></li>
+                          <li class="facebook-f"><a aria-label="facebook-f" class="facebook-f" href="https://www.facebook.com/NekoFan-1489843997917436/" rel="nofollow noopener noreferrer" target="_blank">2</a></li>
+                          <li class="instagram"><a aria-label="instagram" class="instagram" href="https://www.instagram.com/raisa_heika/" rel="nofollow noopener noreferrer" target="_blank">3</a></li>
+                          <li class="youtube"><a aria-label="youtube" class="youtube" href="https://www.youtube.com/user/SammyandRex" rel="nofollow noopener noreferrer" target="_blank">4</a></li>
+                          <li class="rss"><a aria-label="rss" class="rss" href="/feeds/posts/default?max-results=1000" rel="nofollow noopener noreferrer" target="_blank">5</a></li>
+                          <li class="email"><a aria-label="email" class="email" href="mailto:nekofan@hotmail.es" rel="nofollow noopener noreferrer" target="_blank">6</a></li>
+                    </ul>
+                  </div>
               </div>
             </div>
-            <div class="footer-bottom">peu bottom</div>
+            <div class="nf-footer-bottom">
+              <div class="nf-flex-container">
+                <div class="nf-flex-item nf-col-6 nf-flex-padding-card nf-flex-margin-card">
+                  <span class="copyright-text widget">© NekoFan 2010-<span id="copyright-NekoFan-year">2024</span>. </span>
+                </div>
+                <div class="nf-flex-item nf-col-6 nf-flex-padding-card nf-flex-margin-card">  
+                   <span>https://matthewjamestaylor.com/3-column-layouts?utm_content=cmp-true</span>
+                </div>
+              </div>
+            </div>
         </footer>
     </body>
 </html>

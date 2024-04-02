@@ -1,0 +1,56 @@
+/* Classes pel footer */
+.nf-footer-top {
+    font-family: var(--footer-font-family);
+    color: var(--footer-text-color-1);
+    background-color: var(--footer-bg-color-1);
+}
+.nf-footer-bottom {
+    font-family: var(--footer-font-family);
+    background-color: var(--footer-bg-color-2);
+    color: var(--footer-text-color-2);
+    font-size: 0.85em;
+}
+
+.nf-footer-top ul.nf-social-footer {list-style-type: none;}
+.nf-footer-top ul.nf-social-footer > li {display: inline-block; margin:0 10px 0 0;}
+.nf-footer-top ul.nf-social-footer > li > a {
+    width: 34px; 
+    height:34px; 
+    display: block; 
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    line-height: 34px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-bottom-width: 2px;
+    border-radius: 2px;
+}
+
+.nf-footer-top .nf-blog-title {color: var(--blog-title-color); font-size: 1.4em;}
+
+.nf-footer-top .nf-flex-padding-card, .nf-footer-bottom .nf-flex-padding-card {padding:calc(8px + 1.5625vw);}
+.nf-footer-top .nf-flex-margin-card, .nf-footer-bottom .nf-flex-padding-card {margin: 0;}
+
+.nf-footer-top .nf-flex-container, .nf-footer-bottom .nf-flex-container { 
+    display: flex; 
+    flex-wrap: nowrap;
+    flex-direction: row; 
+    column-gap: 1rem;
+}
+.nf-footer-top .nf-flex-item.nf-col-3 {flex: calc(100% / 3);}
+.nf-footer-top .nf-flex-item h3 {color: #fff; margin-top: 0;}
+.nf-footer-top .nf-flex-item img {display: block; margin: 0 auto;}
+
+.nf-footer-top div.nf-flex-item > div > a {
+    text-decoration: none;
+    color:#aaaaaa!important;
+}
+
+.nf-footer-bottom .nf-flex-item.nf-col-6 {flex: calc(100% / 2);}
+
+@media (max-width: 768px) {
+    .nf-footer-top .nf-flex-container, .nf-footer-bottom .nf-flex-container {
+    flex-direction: column;
+    }
+}
